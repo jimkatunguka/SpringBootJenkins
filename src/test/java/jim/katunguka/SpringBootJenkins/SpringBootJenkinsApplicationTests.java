@@ -15,7 +15,7 @@ class SpringBootJenkinsApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
 	@Test
-	public  contextLoads() {
+	public void contextLoads() {
 		logger.info("testcase executing...");
 		logger.info("testcase executing second log statement...");
 		assertEquals(true, true);
